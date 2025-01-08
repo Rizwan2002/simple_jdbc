@@ -31,7 +31,7 @@ public class StudentInsertController {
 			// Step 4: Execute Query (execute-> for both DML and SELECT,executeUpdate-> DML,executeQuery-> SELECT Operation)
 			int result = st.executeUpdate(insert_query);
 			if (result != 0) {
-				System.out.println("Inserted");
+				System.out.println("Data Inserted");
 			} else
 				System.out.println("Not Inserted");
 		} catch (ClassNotFoundException | SQLException e) {
